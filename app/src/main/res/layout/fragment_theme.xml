@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".FragmentTheme">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
+
+        <!--TextView pour dire à l'utilisateur de choisir un thème-->
+        <TextView
+            android:id="@+id/idChoixTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_marginTop="100dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="center_horizontal"
+            android:text="@string/choixTheme"
+            android:textAlignment="center"
+            android:textSize="25sp" >
+
+        </TextView>
+
+        <!--TextView pour dire à le thème choisi actuellement-->
+        <ImageView
+            android:id="@+id/imgTheme"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_below="@id/idChoixTheme"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="106dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="105dp"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/day"
+            android:contentDescription="@string/image_theme" />
+
+        <TextView
+            android:id="@+id/idThemeChoisi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imgTheme"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/switchNigth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/idThemeChoisi"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="108dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="108dp"
+            android:layout_marginBottom="10dp"
+            android:checked="false"
+            android:padding="10dp"
+            android:text="@string/texteThemeClair"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:switchPadding="10dp" />
+
+    </RelativeLayout>
+
+</FrameLayout>

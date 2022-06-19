@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Flickr</string>
+    <string name="accueil">Accueil</string>
+    <string name="voir_favoris">Voir les favoris</string>
+    <string name="change_theme">Changer de thème</string>
+    <string name="choixTheme">Veuillez choisir un thème</string>
+    <string name="texteThemeClair">Thème Clair</string>
+    <string name="texteThemeSombre">Thème Sombre</string>
+    <string name="recherche">Rechercher</string>
+    <string name="app_label">My Flickr Project</string>
+    <string name="search_hint">Renseigner vos mots clés</string>
+    <string name="images_flickr">Images Flickr</string>
+    <string name="titre_image">Titre de l\'image</string>
+    <string name="nom_auteur">Nom de l\'auteur</string>
+    <string name="details">Details</string>
+    <string name="ajouter_favoris">Ajouter Favoris</string>
+    <string name="aucune_photo">Aucune Photo enregistrée</string>
+    <string name="date_prise">Date Prise</string>
+    <string name="date_publication">Date de publication</string>
+    <string name="uri_lien">URI lien</string>
+    <string name="image_theme">Image de Theme</string>
+</resources>
