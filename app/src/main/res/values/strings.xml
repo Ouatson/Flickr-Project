@@ -10,8 +10,8 @@
     <string name="app_label">My Flickr Project</string>
     <string name="search_hint">Renseigner vos mots clés</string>
     <string name="images_flickr">Images Flickr</string>
-    <string name="titre_image">Vous verrez ici le titre</string>
-    <string name="nom_auteur">Et ici le nom de l\'auteur</string>
+    <string name="titre_image">Vous verrez ici le titre.</string>
+    <string name="nom_auteur">Et ici le nom de l\'auteur.</string>
     <string name="details">Details</string>
     <string name="ajouter_favoris">Ajouter Favoris</string>
     <string name="aucune_photo">Aucune Photo\n enregistrée</string>

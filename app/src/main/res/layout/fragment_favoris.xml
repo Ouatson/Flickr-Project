@@ -23,6 +23,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
+        <!-- Texte notifiant l'absence de favoris -->
         <TextView
             android:id="@+id/textNone"
             android:layout_width="wrap_content"
